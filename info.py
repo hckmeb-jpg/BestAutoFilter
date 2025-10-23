@@ -90,7 +90,7 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/How_to_Download')  # 
 # ============================
 # Link Shortener Configuration
 # ============================
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', false))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'arolinks.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'c3dea8d97ee51fb32b08c5f7a373ff3369b950b4')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_to_Download30')  # Tutorial video link for opening shortlink website
